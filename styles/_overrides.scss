@@ -1,0 +1,54 @@
+@forward 'vuetify/settings' with (
+  $button-color: rgb(var(--v-theme-primary)),
+  $button-font-weight: 700,
+
+  $expansion-panel-border-radius: 0.5rem
+);
+
+//Input
+.v-input--is-focused .v-input__slot {
+  border: 2px solid #073161 !important;
+  border-bottom-color: rgba(0, 0, 0, 0.38) !important;
+}
+
+//Tabs
+
+.v-tab .v-btn__overlay {
+  background: none !important;
+}
+
+.v-tab {
+  border-bottom: 3px solid transparent !important;
+
+  border-radius: 2px !important;
+}
+.v-tab .v-btn__content {
+  font-weight: 500;
+  border: none !important;
+}
+
+.v-tab.v-tab--selected {
+  border-bottom: 3px solid rgb(var(--v-theme-primary)) !important;
+}
+.v-tab.v-tab--selected .v-btn__content {
+  border: none !important;
+}
+.v-tab--selected .v-tab__slider {
+  opacity: 0 !important;
+}
+.v-tab * {
+  border: none !important;
+  outline: 0 !important;
+}
+.v-tab .v-tab__slider {
+  opacity: 0 !important;
+}
+
+//slide group
+
+#custom-slide-group .v-slide-group__next {
+  justify-content: flex-end;
+}
+#custom-slide-group .v-slide-group__prev {
+  justify-content: flex-start;
+}

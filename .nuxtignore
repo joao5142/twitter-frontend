@@ -1,0 +1,6 @@
+stories/*
+stories/**/*
+.storybook/*
+*.stories
+stories
+.storybook
