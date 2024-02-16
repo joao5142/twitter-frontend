@@ -42,7 +42,7 @@
 <hr/>
 <img margin-bottom="20px" src="assets/readme/readme4.png">
 
-<h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://twitter-front-two.vercel.app/auth/login">Preview na Vercel</a>
+<h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://twitter-frontend-theta.vercel.app/">Preview na Vercel</a>
 
 <h2>🧑🏻‍ Autor</h2>
 <p>Feito por João paulo</p>
