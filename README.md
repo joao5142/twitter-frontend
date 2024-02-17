@@ -34,13 +34,13 @@
 </div>
 
 <h2>🖼️ Demonstração da aplicação</h2>
-<img margin-bottom="20px" src="assets/readme/readme1.png">
+<img margin-bottom="20px" src="/src/assets/readme/readme1.png">
 <hr/>
-<img margin-bottom="20px" src="assets/readme/readme2.png">
+<img margin-bottom="20px" src="/src/assets/readme/readme2.png">
 <hr/>
-<img margin-bottom="20px" src="assets/readme/readme3.png">
+<img margin-bottom="20px" src="/src/assets/readme/readme3.png">
 <hr/>
-<img margin-bottom="20px" src="assets/readme/readme4.png">
+<img margin-bottom="20px" src="/src/assets/readme/readme4.png">
 
 <h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://twitter-frontend-theta.vercel.app/">Preview na Vercel</a>
 
