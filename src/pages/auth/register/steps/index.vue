@@ -175,7 +175,7 @@ import { PhCaretLeft, PhEnvelopeSimple, PhUser, PhPhone } from '@phosphor-icons/
 
 import { useTheme } from 'vuetify'
 
-import Container from '../../@components/Container.vue'
+import Container from '../../components/Container.vue'
 import PasswordConfirmation from './components/PasswordConfirmation.vue'
 
 import { isEmail } from '@/utils/fieldRules'
