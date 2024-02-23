@@ -21,6 +21,8 @@
     <main class="py-4 main"><slot></slot></main>
 
     <aside-news class="pa-4" />
+
+    <app-loading v-if="isLoading" />
   </div>
 </template>
 
@@ -29,6 +31,8 @@ import { PhList, PhX } from '@phosphor-icons/vue'
 import { useTheme } from 'vuetify'
 import ExploreAside from '@/components/pages/app/ExploreAside.vue'
 import AsideNews from '@/components/pages/app/AsideNews.vue'
+
+const { isLoading } = useLoadingIndicator()
 
 const isMenuOpen = ref<boolean>(false)
 
