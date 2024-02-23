@@ -51,8 +51,20 @@
               </template>
 
               <template #append-inner>
-                <ph-eye v-if="inputs.password.show" class="me-3" :color="gray500" size="20" />
-                <ph-eye-slash v-else class="me-3" :color="gray500" size="20" />
+                <ph-eye
+                  v-if="inputs.password.show"
+                  class="me-3"
+                  :color="gray500"
+                  size="20"
+                  @click="inputs.password.show = false"
+                />
+                <ph-eye-slash
+                  v-else
+                  class="me-3"
+                  :color="gray500"
+                  size="20"
+                  @click="inputs.password.show = true"
+                />
               </template>
             </v-text-field>
             <div class="d-flex justify-end">
