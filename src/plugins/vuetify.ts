@@ -59,14 +59,15 @@ export default defineNuxtPlugin((app) => {
         color: 'primary',
         rounded: 8,
         outlined: true,
-        variant: 'outlined',
+        variant: 'solo',
         height: 60,
+        elevation: 0,
       },
       VSelect: {
         color: 'primary',
         rounded: 8,
         outlined: true,
-        variant: 'outlined',
+        variant: 'solo',
         height: 60,
       },
       VRadio: {
