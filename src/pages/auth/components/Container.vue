@@ -16,7 +16,7 @@
                 <img :src="TwitterImage" alt="Twitter" />
 
                 <app-text color="white" as="span" size="sm" class="text-center d-block">
-                  © 2023 Twitter, Inc.
+                  © 2025 Twitter, Inc.
                 </app-text>
               </div>
             </div>
@@ -33,7 +33,7 @@
 </template>
 
 <script setup lang="ts">
-import TwitterImage from '@/assets/ilustrations/ilustration.png'
+import TwitterImage from '@/assets/ilustration.png'
 </script>
 
 <style scoped lang="scss">

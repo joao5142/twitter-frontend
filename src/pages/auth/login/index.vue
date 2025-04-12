@@ -89,7 +89,7 @@
           <div class="mt-10 separator w-50 text-center mx-auto">Ou</div>
 
           <div class="d-flex flex-wrap justify-center mt-10 gap-30">
-            <app-button background="gray-200" class="d-flex align-center">
+            <app-button background="gray-100" class="d-flex align-center">
               <img class="icon" :src="GoogleImage" alt="Google" />
               <app-text class="ms-3" as="strong" color="gray-500" weight="semibold">
                 Entrar com Google

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-2">
     <app-box
       background="gray-50"
       border-color="gray-50"

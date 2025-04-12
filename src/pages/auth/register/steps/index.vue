@@ -2,7 +2,7 @@
   <container>
     <template #content>
       <div class="h-100 d-flex flex-column justify-space-between">
-        <div class="scrollable h-100 d-flex flex-column">
+        <div class="scrollable h-100 d-flex flex-column px-2">
           <div>
             <app-button
               border-color="primary"
