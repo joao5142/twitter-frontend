@@ -15,7 +15,7 @@
   </div>
 
   <div v-for="(step, index) in steps" :key="'item' + index" class="mt-16">
-    <slot v-if="index == computedCurrentStep" :name="'item.' + (index + 1)"> ></slot>
+    <slot v-if="index == computedCurrentStep" :name="'item.' + (index + 1)"></slot>
   </div>
 </template>
 
